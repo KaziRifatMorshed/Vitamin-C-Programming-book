@@ -1,0 +1,6 @@
+[book]
+authors = ["Kazi Rifat Morshed"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Vitamin C Programming Supplement"

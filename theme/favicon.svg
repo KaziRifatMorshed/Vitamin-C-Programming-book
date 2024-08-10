@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="811.85754"
+   height="937.27197"
+   viewBox="0 0 811.85754 937.27197"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="KU CSE good.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   inkscape:export-filename="vita-c.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.6171875"
+     inkscape:cx="217.11392"
+     inkscape:cy="460.1519"
+     inkscape:window-width="1900"
+     inkscape:window-height="988"
+     inkscape:window-x="10"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="-269.22676,613.90252"
+       orientation="0,-1"
+       id="guide57"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-359.96094,-3953.9531)">
+    <path
+       sodipodi:type="star"
+       style="fill:#5b99c2;fill-opacity:1;stroke:#000000;stroke-width:10.867;stroke-dasharray:none"
+       id="path1"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="-95.477257"
+       sodipodi:cy="374.53302"
+       sodipodi:r1="433.60733"
+       sodipodi:r2="216.80367"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 280.03771,591.33669 -95.477259,808.14035 -470.99222,591.33668 l 0,-433.60733 375.514965,-216.80366 375.514965,216.80367 z"
+       transform="matrix(1.0473916,0,0,1.0473916,865.89178,4033.5147)" />
+    <path
+       id="path320"
+       style="fill:#f9dbba;fill-opacity:1;stroke:#000000;stroke-width:8.26595;stroke-dasharray:none"
+       d="m 902.83684,4891.3328 v 4.2492 z m -133.35307,-842.6398 -3.67771,-2.1245 -129.65277,74.8553 v 4.3525 l -3.77134,-2.1763 -129.49779,74.7681 v 4.4721 149.5104 4.472 149.533 4.4269 149.6364 4.2492 l 129.59142,74.8198 3.67771,-2.1247 v 4.246 l 129.65277,74.8553 3.67771,-2.1246 129.59142,-74.8198 -129.59142,-74.8164 -3.73906,-2.1603 -129.59142,-74.8197 -3.68093,-2.1246 3.68093,-2.1246 V 4433.767 l -3.77134,-2.1763 3.77134,-2.1794 v -149.63 l -3.79072,-2.1859 3.79072,-2.1892 129.58173,-74.8133 3.74875,-2.1634 v 4.3267 149.6784 l 129.62372,-74.8392 3.72935,-2.1537 v -149.7591 c -44.45275,-25.6601 -88.90233,-51.326 -133.35307,-76.9896 z m 0,0 c -270.73259,-545.9534 -270.73259,-545.9534 0,0 z"
+       inkscape:export-filename="KU CSE good.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
