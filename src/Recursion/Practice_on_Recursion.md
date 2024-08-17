@@ -7,14 +7,14 @@ Use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.
 
 ### Problems on Recursion
 
-1. Print 1 to n with a recursive function.
+1. Print 1 to 50 with a recursive function.\
    Input:
    ```
-   6
+   50
    ```
    Output:
    ```
-   1 2 3 4 5 6 
+   1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
    ```
    Hint:
    ```c
@@ -32,85 +32,95 @@ Use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.
     ~} // DONE
    ```
 
-2. You will be given an array of integers. Write a recursive solution to print it in (inputted) order.\
+2. Print out the series 1 + 2 + 3 + ... + n w and determine the sum.\
    Input:
+   ```
+   5
+   ```
+   Output:
+   ```
+   1 + 2 + 3 + 4 + 5 = 15
+   ```
+   Hint:
+   ```c
+   ~#include <stdio.h>
+    int sum_it(int num, int limit) {
+   ~ if (num > limit) {
+   ~     printf("= ");
+   ~     return 0;
+   ~ } else {
+   ~     printf("%d ", num);
+   ~     if (num != limit) {
+   ~     printf("+ ");
+   ~     }
+   ~     return num + sum_it(num + 1, limit);
+   ~ }
+   ~ }
+   ~ int main(void) {
+   ~ int limit = 0;
+   ~ scanf("%d", &limit);
+   ~ int sum = sum_it(1, limit);
+   ~ printf("%d", sum);
+   ~ } // done
+   ```
 
-```
-
-5
-69 87 45 21 47
-
-```
-
-Output:
-
-```
-
-69 87 45 21 47
-
-```
-
-Hint:
-
-3. Same as before. Add index number (starting from 1) to each int output in (inputted) order.\
+3. You will be given an array of integers. Write a recursive solution to print it in (inputted) order.\
    Input:
+   ```
+   5
+   69 87 45 21 47
+   ```
+   Output:
+   ```
+   69 87 45 21 47
+   ```
+   Hint:
 
-```
-
-5
-69 87 45 21 47
-
-```
-
-Output:
-
-```
-
-1.69 2.87 3.45 4.21 5.47
-
-```
-
-4. Same as before. Add index number (starting from n) to each int and get output in reverse order.\
+4. Same as before. Add index number (starting from 1) to each int output in (inputted) order.\
    Input:
+   ```
+   5
+   69 87 45 21 47
+   ```
+   Output:
+   ```
+   1.69 2.87 3.45 4.21 5.47
+   ```
 
-```
+5. Same as before. Add index number (starting from n) to each int and get output in reverse order.\
+   Input:
+   ```
+   7
+   69 87 45 21 47 76 2
+   ```
+   Output:
+   ```
+   7.69 6.87 5.45 4.21 3.47 2.76 1.2 
+   ```
 
-7
-69 87 45 21 47 76 2
-
-```
-
-Output:
-
-```
-
-7.69 6.87 5.45 4.21 3.47 2.76 1.2
-
-```
-
-5. You will be given an array of integers. Write a recursive solution to print it in reverse order.
+6. You will be given an array of integers. Write a recursive solution to print it in reverse order.
    Input:
    5
    62 87 45 24 47
    Output:
    47 24 45 87 62
 
-6. Same as before. The program will print inputted numbers except even integers.
+7. Same as before. The program will print inputted numbers except even integers.
    Input:
    5
    62 87 45 24 47
    Output:
    47 45 87
 
-7. Use recursion to find max among 2 integers.
+8. Use recursion to find max among 2 integers.
 
-8. Use recursion to find the max among 3 integers.
+9. Use recursion to find the max among 3 integers.
 
-9. Use recursion to find min among 2 integers.
+10. Use recursion to find min among 2 integers.
 
-10. Use recursion to find min among 3 integers.
+11. Use recursion to find min among 3 integers.
 
-11. Write a recursive function to print an array in the following order. \[0] \[n-1] \[1] \[n-2]  … \[(n-1)/2] \[n/2]
+12. Write a recursive function to print an array in the following order. \[0] \[n-1] \[1] \[n-2]  … \[(n-1)/2] \[n/2]
     Input:
     5
     1 5 7 8 9
@@ -119,45 +129,42 @@ Output:
     5 8
     7 7
 
-12. Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read the input, call the recursive function, and then print the array in main().
+13. Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read the input, call the recursive function, and then print the array in main().
     Input:
     6
     1 54 88 6 55 7
     Output:
     54 88 6
 
-13. Write a recursive solution to print the polynomial series for any input n: $$ 1 + x + x^2 + ... + x^{n-1} $$
+14. Write a recursive solution to print the polynomial series for any input n: $$ 1 + x + x^2 + ... + x^{n-1} $$
     Input:
+    ```
+    5
+    ```
+    Output:
+    ```
+    1 + x + x^2 + x^3 + x^4
+    ```
 
-```
-5
-```
-
-Output:
-
-```
-1 + x + x^2 + x^3 + x^4
-```
-
-14. Write a recursive solution to evaluate the previous polynomial for any given x and n. Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
+15. Write a recursive solution to evaluate the previous polynomial for any given x and n. Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
     Input:
     2 5
     Output:
     31
 
-15. Write a recursive program to compute n!
+16. Write a recursive program to compute n!
     Input:
     5
     Output:
     120
 
-16. Write a recursive program to compute the n-th Fibonacci number. 1st and 2nd Fibonacci numbers are 1, 1.
+17. Write a recursive program to compute the n-th Fibonacci number. 1st and 2nd Fibonacci numbers are 1, 1.
     Input:
     6
     Output:
     8
 
-17. Write a recursive program to determine whether a given integer is prime or not.
+18. Write a recursive program to determine whether a given integer is prime or not.
     Input:
     49
     999983
@@ -167,33 +174,33 @@ Output:
     prime
     not prime
 
-18. Write a recursive function that finds the gcd of two non-negative integers.
+19. Write a recursive function that finds the gcd of two non-negative integers.
     Input:
     25 8895
     Output:
     5
 
-19. Write a recursive solution to compute the LCM of two integers. You must not use the formula lcm(a,b) = (a x b) / gcd(a,b); find lcm from scratch...
+20. Write a recursive solution to compute the LCM of two integers. You must not use the formula lcm(a,b) = (a x b) / gcd(a,b); find lcm from scratch...
     Input:
     23 488
     Output:
     11224
 
-20. Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
+21. Suppose you are given an array of integers in an arbitrary order. Write a recursive solution to find the maximum element from the array.
     Input:
     5
     7 4 9 6 2
     Output:
     9
 
-21. Write a recursive solution to find the second maximum number from a given set of integers.
+22. Write a recursive solution to find the second maximum number from a given set of integers.
     Input:
     5
     5 8 7 9 3
     Output:
     8
 
-22. Implement linear search recursively, i.e. given an array of integers, find a specific value from it. Input format: first n, the number of elements. Then n integers. Then, q, the number of queries, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
+23. Implement linear search recursively, i.e. given an array of integers, find a specific value from it. Input format: first n, the number of elements. Then n integers. Then, q, the number of queries, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
     Input:
     5
     2 9 4 7 6
@@ -203,7 +210,7 @@ Output:
     not found
     1
 
-23. Implement binary search recursively, i.e. given an array of sorted integers, find a query integer from it. Input format: first n, the number of elements. Then n integers. Then, q, the number of queries, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
+24. Implement binary search recursively, i.e. given an array of sorted integers, find a query integer from it. Input format: first n, the number of elements. Then n integers. Then, q, the number of queries, then q integers. Output format: for each of the q integers, print its index (within 0 to n-1) in the array or print 'not found', whichever is appropriate.
     Input:
     5
     1 2 3 4 5
@@ -213,86 +220,76 @@ Output:
     2
     not found
 
-24. Write a recursive solution to get the reverse of a given integer. The function must return an int.
+25. Write a recursive solution to get the reverse of a given integer. The function must return an int.
     Input:
     123405
     Output:
     504321
 
-25. Read a string from keyboard and print it in reversed order. You must not use any array to store the characters. Write a recursive solutions to solve this problem.
+26. Read a string from keyboard and print it in reversed order. You must not use any array to store the characters. Write a recursive solutions to solve this problem.
     Input:
     helloo
     Output:
     oolleh
 
-26. Write a recursive program that determines whether a given sentence is palindromic or not just considering the alpha-numeric characters ('a'-'z'), ('A'-'Z'), ('0'-'9').\
+27. Write a recursive program that determines whether a given sentence is palindromic or not just considering the alpha-numeric characters ('a'-'z'), ('A'-'Z'), ('0'-'9').\
     \
     Input:
+    ```
+    madam
+    ```
+    Output:
+    ```
+    palindromic
+    ```
+    Input:
+    ```
+    hulala
+    ```
+    Output:
+    ```
+    not palindromic
+    ```
 
-```
-madam
-```
-
-Output:
-
-```
-palindromic
-```
-
-Input:
-
-```
-hulala
-```
-
-Output:
-
-```
-not palindromic
-```
-
-27. Implement strcat(), stracpy(), strcmp() and strlen() recursively.\
+28. Implement strcat(), stracpy(), strcmp() and strlen() recursively.\
     \
     Input:
     test on your own\
     Output:
     test on your own
 
-28. If you already solved the problem for finding the nth fibonacci number, then you must have a clear vision on how the program flow works. So now, in this problem, print the values of your fibonacci function in pre-order, in-order and post-order traversal. For example, when n = 5, your program calls 3 and 4 from it, from the call of 3, your program calls 1 and 2 again....... here is the picture:
+29. If you already solved the problem for finding the nth fibonacci number, then you must have a clear vision on how the program flow works. So now, in this problem, print the values of your fibonacci function in pre-order, in-order and post-order traversal. For example, when n = 5, your program calls 3 and 4 from it, from the call of 3, your program calls 1 and 2 again....... here is the picture:
     Input:
 
-```
-5
-```
+    ```
+    5
+    ```
 
-Output:
+    Output:
 
-```
-Inorder: 1 3 2 5 2 4 1 3 2
-Preorder: 5 3 1 2 4 2 3 1 2
-Postorder: 1 2 3 2 1 2 3 4 5
-```
+    ```
+    Inorder: 1 3 2 5 2 4 1 3 2
+    Preorder: 5 3 1 2 4 2 3 1 2
+    Postorder: 1 2 3 2 1 2 3 4 5
+    ```
 
-29. All of you have seen the tower of Hanoi. You have 3 pillars 'a', 'b' and 'c', and you need transfer all disks from one pillar to another. Conditions are, only one disk at a time is movable, and you can never place a larger disk over a smaller one. Write a recursive solution to print the moves that simulates the task, a -> b means move the topmost of tower a to tower b.
+30. All of you have seen the tower of Hanoi. You have 3 pillars 'a', 'b' and 'c', and you need transfer all disks from one pillar to another. Conditions are, only one disk at a time is movable, and you can never place a larger disk over a smaller one. Write a recursive solution to print the moves that simulates the task, a -> b means move the topmost of tower a to tower b.
 
-Input:
+    Input:
 
-```
-3
-```
+    ```
+    3
+    ```
 
-Output:
+    Output:
 
-```
-a -> c
-a -> b
-c -> b
-a -> c
-b -> a
-b -> c
-a -> c
-x
-```
-
-```
-```
+    ```
+    a -> c
+    a -> b
+    c -> b
+    a -> c
+    b -> a
+    b -> c
+    a -> c
+    x
+    ```
