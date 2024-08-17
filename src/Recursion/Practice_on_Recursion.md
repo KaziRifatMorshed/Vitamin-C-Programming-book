@@ -20,11 +20,28 @@ Use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.
    ```c
     ~#include <stdio.h>
     ~void printer(int number) {
+        // Base Case
     ~    if (number > 50) { // 50 কে টাচ করার জন্য ৫০ থেকে বড় নিতে হবে
     ~        return;
     ~    } else {
     ~        printf("%d ", number);
             printer(number + 1);
+    ~    }
+    ~}
+    ~int main(void) {
+    ~    printer(1);
+    ~} // DONE
+   ```
+
+   Solution:
+   ```c
+    ~#include <stdio.h>
+    ~void printer(int number) {
+    ~    if (number > 50) { // 50 কে টাচ করার জন্য ৫০ থেকে বড় নিতে হবে
+    ~        return;
+    ~    } else {
+    ~        printf("%d ", number);
+    ~        printer(number + 1);
     ~    }
     ~}
     ~int main(void) {
