@@ -1,7 +1,7 @@
 # Vitamin-C-Programming-book
 
-Supplement like C Programming guide book for beginners  
- Link: [https://kazirifatmorshed.github.io/Vitamin-C-Programming-book/](https://kazirifatmorshed.github.io/Vitamin-C-Programming-book/)
+Supplement like C Programming guide book for beginners\
+Link: <https://kazirifatmorshed.github.io/Vitamin-C-Programming-book/>
 
 # How to contribute
 
@@ -15,13 +15,13 @@ Vitamin-C-Programming-book/
     └── SUMMARY.md
 ```
 
-- The `src` directory is where you write your book in markdown. It contains all
+* The `src` directory is where you write your book in markdown. It contains all
   the source files, configuration files, etc.
 
-- The `book` directory is where your book (html) is rendered. All the output is ready
+* The `book` directory is where your book (html) is rendered. All the output is ready
   to be uploaded to a server to be seen by your audience.
 
-- The `SUMMARY.md` is the skeleton of your
+* The `SUMMARY.md` is the skeleton of your
   book, and is discussed in more detail [in another
   chapter](../format/summary.md).
 
@@ -55,7 +55,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
 
 ### Structure
 
-1. **_Title_** - While optional, it's common practice to begin with a title, generally <code
+1. ***Title*** - While optional, it's common practice to begin with a title, generally <code
    class="language-markdown"># Summary</code>. This is ignored by the parser however, and
    can be omitted.
 
@@ -63,7 +63,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
    # Summary
    ```
 
-1. **_Prefix Chapter_** - Before the main numbered chapters, prefix chapters can be added
+2. ***Prefix Chapter*** - Before the main numbered chapters, prefix chapters can be added
    that will not be numbered. This is useful for forewords,
    introductions, etc. There are, however, some constraints. Prefix chapters cannot be
    nested; they should all be on the root level. And you cannot add
@@ -75,7 +75,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
    - [First Chapter](relative/path/to/markdown2.md)
    ```
 
-1. **_Part Title_** -
+3. ***Part Title*** -
    Level 1 headers can be used as a title for the following numbered chapters.
    This can be used to logically separate different sections of the book.
    The title is rendered as unclickable text.
@@ -88,7 +88,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
    - [First Chapter](relative/path/to/markdown.md)
    ```
 
-1. **_Numbered Chapter_** - Numbered chapters outline the main content of the book
+4. ***Numbered Chapter*** - Numbered chapters outline the main content of the book
    and can be nested, resulting in a nice hierarchy
    (chapters, sub-chapters, etc.).
 
@@ -106,7 +106,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
 
    Numbered chapters can be denoted with either `-` or `*` (do not mix delimiters).
 
-1. **_Suffix Chapter_** - Like prefix chapters, suffix chapters are unnumbered, but they come after
+5. ***Suffix Chapter*** - Like prefix chapters, suffix chapters are unnumbered, but they come after
    numbered chapters.
 
    ```markdown
@@ -115,7 +115,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
    [Title of Suffix Chapter](relative/path/to/markdown2.md)
    ```
 
-1. **_Draft chapters_** - Draft chapters are chapters without a file and thus content.
+6. ***Draft chapters*** - Draft chapters are chapters without a file and thus content.
    The purpose of a draft chapter is to signal future chapters still to be written.
    Or when still laying out the structure of the book to avoid creating the files
    while you are still changing the structure of the book a lot.
@@ -127,7 +127,7 @@ is very strict and must follow the structure outlined below to allow for easy pa
    - [Draft Chapter]()
    ```
 
-1. **_Separators_** - Separators can be added before, in between, and after any other element. They result
+7. ***Separators*** - Separators can be added before, in between, and after any other element. They result
    in an HTML rendered line in the built table of contents. A separator is
    a line containing exclusively dashes and at least three of them: `---`.
 
@@ -141,7 +141,25 @@ is very strict and must follow the structure outlined below to allow for easy pa
    - [First Chapter](relative/path/to/markdown2.md)
    ```
 
----
+***
 
-[Kazi Rifat Morshed](https://kazirifatmorshed.github.io)  
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore-start -->
+
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[![All Contributors](https://img.shields.io/github/all-contributors/KaziRifatMorshed/Vitamin-C-Programming-book?color=ee8449\&style=flat-square)](#contributors)
+
+***
+
+[Kazi Rifat Morshed](https://kazirifatmorshed.github.io)\
 KU CSE 230220
