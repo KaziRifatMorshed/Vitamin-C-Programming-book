@@ -1,6 +1,6 @@
 # PRACTICE Recursion
 
-Some of the sollowing problems are directly copied from [Zobayer Hasan vai's blog post on recursion](https://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html). We are grateful to his open contributions towards learning CS.\
+Some of the following problems are directly copied from [Zobayer Hasan vai's blog post on recursion](https://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html). We are grateful to his open contributions towards learning CS.\
 You can use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) extension in VS code to make your practice easier though it wont make a big difference.
 
 <i>ALL THE BEST FOR YOUR HARD WORK.</i>

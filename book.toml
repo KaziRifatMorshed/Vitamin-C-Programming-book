@@ -11,3 +11,4 @@ mathjax-support = true
 [output.html.code.hidelines]
 python = "~"
 c = "~"
+hint = "~"
