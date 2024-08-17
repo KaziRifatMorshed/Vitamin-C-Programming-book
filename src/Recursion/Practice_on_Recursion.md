@@ -1,7 +1,7 @@
 # PRACTICE Recursion
 
 Some of the sollowing problems are directly copied from [Zobayer Hasan vai's blog post on recursion](https://zobayer.blogspot.com/2009/12/cse-102-practice-recursions.html). We are grateful to his open contributions towards learning CS.\
-Use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) extension in VS code to make your practice easier.
+You can use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) extension in VS code to make your practice easier though it wont make a big difference.
 
 <i>ALL THE BEST FOR YOUR HARD WORK.</i>
 
@@ -9,44 +9,42 @@ Use the [Competitive Programming Helper (cph)](https://marketplace.visualstudio.
 
 1. Print 1 to 50 with a recursive function.\
    Input:
+
    ```
    50
    ```
+
    Output:
+
    ```
    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
    ```
+
    Hint:
+
    ```c
-    ~#include <stdio.h>
-    ~void printer(int number) {
-        // Base Case
-    ~    if (number > 50) { // 50 কে টাচ করার জন্য ৫০ থেকে বড় নিতে হবে
-    ~        return;
-    ~    } else {
-    ~        printf("%d ", number);
-            printer(number + 1);
-    ~    }
-    ~}
-    ~int main(void) {
-    ~    printer(1);
-    ~} // DONE
+            // recursive call
+            printer(number + 1); // value of number increments here
    ```
 
    Solution:
+
    ```c
-    ~#include <stdio.h>
+    ~#include <stdio.h> 
     ~void printer(int number) {
-    ~    if (number > 50) { // 50 কে টাচ করার জন্য ৫০ থেকে বড় নিতে হবে
+    ~    // printf("in this recursive call, number is %d \n", number);
+    ~    // Base Case
+    ~    if (number > 50) { // in a new recursive call, if the value of number is greater than 50, recursive call should terminate
     ~        return;
     ~    } else {
-    ~        printf("%d ", number);
-    ~        printer(number + 1);
+    ~       // printf("%d ", number);
+    ~        // recursive call
+    ~        printer(number + 1); // value of number increments here
     ~    }
     ~}
     ~int main(void) {
     ~    printer(1);
-    ~} // DONE
+    ~}
    ```
 
 2. Print out the series 1 + 2 + 3 + ... + n w and determine the sum.\
