@@ -157,8 +157,6 @@ is very strict and must follow the structure outlined below to allow for easy pa
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[![All Contributors](https://img.shields.io/github/all-contributors/KaziRifatMorshed/Vitamin-C-Programming-book?color=ee8449\&style=flat-square)](#contributors)
-
 ***
 
 [Kazi Rifat Morshed](https://kazirifatmorshed.github.io)\
