@@ -7,3 +7,7 @@ title = "Vitamin C Programming Supplement"
 
 [output.html]
 mathjax-support = true
+
+[output.html.code.hidelines]
+python = "~"
+c = "~"
