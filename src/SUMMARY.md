@@ -5,6 +5,8 @@
 
 ***
 
+# Guide to Structured Programming
+
 * [Start Here](./StartHere/StartHere.md)
   * [Get your system ready](./StartHere/Get_your_system_ready.md)
   * [Books & Tutorials](./StartHere/Books_Tutorials.md)
@@ -44,6 +46,12 @@
 * [Linked List](./LinkedList/LinkedList.md)
 * [int main(int argc, char \*argv\[\])](./int_main_argc_argv/int_main_argc_argv.md)
 * [File Operations](./FileOperations/FileOperations.md)
+
+***
+
+# Guide to Competitive Programming
+
+* [Welcome to CP]()
 
 ***
 
