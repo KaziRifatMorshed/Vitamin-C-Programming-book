@@ -2,6 +2,9 @@
 
 Supplement like C Programming guide book for beginners\
 Link: <https://kazirifatmorshed.github.io/Vitamin-C-Programming-book/>
+\
+\
+![book banner](./src/Vitamin-C-programming-supplement.webp)
 
 # How to contribute
 
