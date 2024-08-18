@@ -9,7 +9,7 @@ Now let's get you started on your learning journey. Choose any of the following 
 
 | Resource | Medium | Link |
 | - | - | - |
-| Harvard CS50 | English (Youtube Playlist |  [Playlist](https://youtube.com/playlist?list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4\&si=45C8iSl3q8JbDCvB) |
+| Harvard CS50 | English (Youtube Playlist) |  [Playlist](https://youtube.com/playlist?list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4\&si=45C8iSl3q8JbDCvB) |
 | Tamim Shahriar Subeen | Free Bangla (Book)  | [CPBook part 1](http://cpbook.subeen.com/)                                                       |
 | Anisul Islam Youtube Playlist | Bangla (Video) | [C Programming](https://www.youtube.com/playlist?list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz) |
 
@@ -20,8 +20,9 @@ GeeksForGeeks
 A Book, ANSI C by E Balaguruswamy
 
 More Resources:
-MIT OpenCourseWare
-https://nptel.ac.in
+
+* MIT OpenCourseWare
+* https://nptel.ac.in
 
 ![tutorial\_hell\_meme\_2](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3fag6b2j8bc5a0i3xolu.png)
 
