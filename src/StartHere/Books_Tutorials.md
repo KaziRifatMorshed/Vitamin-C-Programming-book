@@ -1,7 +1,7 @@
 # Learning Resources
 
 <p align="center">
-    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Y4fhNX9L--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6ss4i1d0p105jb55g9x.jpg">
+    <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6ss4i1d0p105jb55g9x.jpg">
 </p>
 
 > *A gentle reminder...*\
@@ -25,7 +25,7 @@ Now let's get you started on your learning journey. Choose any of the following 
 
 There are many resources !!!! I am panicked !!! How/Where to start ?\
 Don't skip CS50, this is a must !!! Select any one from above list as your mainstream learning. But your learning will not complete with one source. YOU HAVE TO EXPLORE OTHER RESOURCES too !!!!!!!!!!
- 
+
 
 More Resources:
 
