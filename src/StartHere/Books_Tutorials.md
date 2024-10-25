@@ -9,17 +9,23 @@
 
 Now let's get you started on your learning journey. Choose any of the following ones to start. If you love to read and you can understand well from reading then you may choose option 1. Otherwise choose the other options. (Those are videos. I'll suggest that you try both and then decide.)
 
-| Resource | Medium | Link | Comment |
-| - | - | - | - |
-| Harvard CS50 | English (Youtube Playlist) |  [Playlist](https://youtube.com/playlist?list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4\&si=45C8iSl3q8JbDCvB) | Firstly, watch Harvard CS50 to build up concepts. It is Highly Recommended for Basics. |
-| Tamim Shahriar Subeen | Free Bangla (Book)  | [CPBook part 1](http://cpbook.subeen.com/)                                                       |
-| Anisul Islam Youtube Playlist | Bangla (Video) | [C Programming](https://www.youtube.com/playlist?list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz) |
+| Resource                                                                           | Medium                     | Link                                                                                                                               | Comment                                                                                                                                                                                                                                  |
+| ---------------------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Harvard CS50                                                                       | English (Youtube Playlist) | [Playlist](https://youtube.com/playlist?list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4\&si=45C8iSl3q8JbDCvB)                              | Firstly, watch Harvard CS50 to build up concepts. It is Highly Recommended for Basics.                                                                                                                                                   |
+| স্ট্রাকচারড সি/সি-প্লাস-প্লাস প্রোগ্রামিং (ড. মোহাম্মদ কায়কোবাদ ,  ড. মো. মোস্তফা আকবর ,  ড. মু. আ. হাকিম নিউটন) | Bangla (Book)              | [Rokomari Link](https://www.rokomari.com/book/200054/structured-c-c-programming-kathamomukhi-c-c-plus-plus-porigonona-3rd-edition) | Another awesome Bangla Book for starting C Programming for beginners.                                                                                                                                                                    |
+| Tamim Shahriar Subeen                                                              | Free Bangla (Book)         | [CPBook part 1](http://cpbook.subeen.com/)                                                                                         | This is a good book for enthusiasts, but I personally think not much beginner friendly from Bangladeshi perspective. Also, the first edition of the first part of the book is available online for free. You have to buy 2nd & 3rd part. |
+| Anisul Islam's Documentation                                                       | English Text               | [c-programming-documentation](https://github.com/anisul-Islam/c-programming-documentation)                                         |
+| Anisul Islam Youtube Playlist                                                      | Bangla (Video)             | [C Programming](https://www.youtube.com/playlist?list=PLgH5QX0i9K3pCMBZcul1fta6UivHDbXvz)                                          |
+| College Wallah Youtube Playlist                                                    | Hindi (Youtube Playlist)   | [Playlist](https://youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt&si=14h2hQ-u1ebYm3V_)                               | This one is another great playlist for beginners/                                                                                                                                                                                        |
+| Bro Code                                                                           | English (Youtube Playlist) | [Playlist](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe&si=M8GQhsVcCtSjrZwJ)                               | BroCode is an amazing channel for learning !!! If you want to skip BroCode's videos for C, remember this channel name, his videos on Java, HTML, CSS, JavaScript are amazing !!!!!                                                       |
+| C++ : The Cherno                                                                   | English (Youtube Playlist) | [Playlist](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&si=mRWNB2bdtVfWTf5k)                               | Cpp is easy once you have completed C. This channel is highly recommended.                                                                                                                                                               |
+| Programming in Ansi C, 8th Edition                                                 | English (Book)             | [Rokomari Link](https://www.rokomari.com/book/119526/programming-in-ansi-c-8th-edition)                                            | This book is widely used.                                                                                                                                                                                                                |
 
 ### How to Start C (Resources)
 
-Anisul Islam or CollegeWallah or Jennys Lectures or LearnWithHarry or TheCherno or BroCode
-GeeksForGeeks
-A Book, ANSI C by E Balaguruswamy
+There are many resources !!!! I am panicked !!! How/Where to start ?\
+Don't skip CS50, this is a must !!! Select any one from above list as your mainstream learning. But your learning will not complete with one source. YOU HAVE TO EXPLORE OTHER RESOURCES too !!!!!!!!!!
+ 
 
 More Resources:
 

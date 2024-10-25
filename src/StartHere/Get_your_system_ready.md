@@ -6,17 +6,17 @@ Considering you as newbies we are only going to suggest 2 editors (each) here. I
 
 We prefer to use VS Code and MSYS2 compiler.
 
-| Name | Link | Installation | Comment |
-| - | - | - | - |
-| Codeblocks | [Download](https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe/download) | [How to setup](https://structured-programming-ku-cse.blogspot.com/2024/06/document-body-font-size-20px-table-min.html#) | Codeblocks is one of the old but featureful IDEs still regarded as good  |
-| Visual Studio Code | [Download](https://code.visualstudio.com/docs/?dv=win64)                                                                      | [How to setup](https://structured-programming-ku-cse.blogspot.com/2024/06/document-body-font-size-20px-table-min.html#) |
+| Name               | Link                                                                                                                          | Installation                                                                                                            | Comment                                                                 |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Codeblocks         | [Download](https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe/download) | [How to setup](https://structured-programming-ku-cse.blogspot.com/2024/06/document-body-font-size-20px-table-min.html#) | Codeblocks is one of the old but featureful IDEs still regarded as good |
+| Visual Studio Code | [Download](https://code.visualstudio.com/docs/?dv=win64)                                                                      | [How to setup](https://youtu.be/2a74KxrVgZY)                                                                            | [How to configure VS Code](https://youtu.be/FlT-wMfBJi4)                |
 
 ### ii. Online
 
-| Name | Link | Comments |
-| - | - | - |
-| Programiz | [Let's Code](https://www.programiz.com/c-programming/online-compiler/) | |
-| OnlineGDB | [Let's Code](https://www.onlinegdb.com/online_c_compiler) | |
+| Name      | Link                                                                   | Comments |
+| --------- | ---------------------------------------------------------------------- | -------- |
+| Programiz | [Let's Code](https://www.programiz.com/c-programming/online-compiler/) |          |
+| OnlineGDB | [Let's Code](https://www.onlinegdb.com/online_c_compiler)              |          |
 
 #### Pros of Online IDE
 
@@ -58,4 +58,4 @@ fun fact, it is a 7 line code, but same work can be done with only 2 lines of co
 int main(void){printf("Hello World");}
 ```
 
-Write this code character by character in your preferred code editor and run. If everything is alright then you will see your computer welcoming you to the world of programming.
+Write this code character by character in your favorite code editor and run. If everything is alright then you will see your computer welcoming you to the world of programming😉.
